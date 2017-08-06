@@ -22,12 +22,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yY1-Yc-yzR" customClass="YTPlayerView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="275"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="219" id="aUj-n8-KCs"/>
+                                    <constraint firstAttribute="height" constant="275" id="aUj-n8-KCs"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOa-xh-5EA">
+                                <rect key="frame" x="124" y="323" width="114" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -37,6 +44,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="lblTime" destination="WOa-xh-5EA" id="jXy-WX-qLr"/>
                         <outlet property="playerView" destination="yY1-Yc-yzR" id="du9-HS-bD0"/>
                     </connections>
                 </viewController>

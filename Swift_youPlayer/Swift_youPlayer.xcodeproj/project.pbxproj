@@ -57,7 +57,7 @@
 		DBA28D891F36AEF6006F12AD /* Swift_youPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_youPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA28D8D1F36AEF6006F12AD /* Swift_youPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_youPlayerUITests.swift; sourceTree = "<group>"; };
 		DBA28D8F1F36AEF6006F12AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DBA28D9D1F36B37A006F12AD /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		DBA28D9D1F36B37A006F12AD /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyView.swift; path = ../MyView.swift; sourceTree = "<group>"; };
 		ECB43639792A111559741352 /* Pods-Swift_youPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_youPlayerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_youPlayerUITests/Pods-Swift_youPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F2E3A0AAB16CC0A1613226C9 /* Pods_Swift_youPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_youPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC16E3229F8C0789AA57F80 /* Pods-Swift_youPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_youPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_youPlayerTests/Pods-Swift_youPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -117,7 +117,6 @@
 		DBA28D611F36AEF6006F12AD = {
 			isa = PBXGroup;
 			children = (
-				DBA28D9D1F36B37A006F12AD /* MyView.swift */,
 				DBA28D6C1F36AEF6006F12AD /* Swift_youPlayer */,
 				DBA28D811F36AEF6006F12AD /* Swift_youPlayerTests */,
 				DBA28D8C1F36AEF6006F12AD /* Swift_youPlayerUITests */,
@@ -140,6 +139,7 @@
 		DBA28D6C1F36AEF6006F12AD /* Swift_youPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				DBA28D9D1F36B37A006F12AD /* MyView.swift */,
 				DBA28D6D1F36AEF6006F12AD /* AppDelegate.swift */,
 				DBA28D6F1F36AEF6006F12AD /* ViewController.swift */,
 				DBA28D711F36AEF6006F12AD /* Main.storyboard */,
