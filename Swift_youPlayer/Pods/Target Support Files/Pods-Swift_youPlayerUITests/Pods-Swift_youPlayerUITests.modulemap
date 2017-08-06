@@ -1,0 +1,6 @@
+framework module Pods_Swift_youPlayerUITests {
+  umbrella header "Pods-Swift_youPlayerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

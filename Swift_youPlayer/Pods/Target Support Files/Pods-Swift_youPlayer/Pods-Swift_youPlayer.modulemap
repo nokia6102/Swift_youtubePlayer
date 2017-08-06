@@ -1,0 +1,6 @@
+framework module Pods_Swift_youPlayer {
+  umbrella header "Pods-Swift_youPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}
