@@ -21,17 +21,28 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yY1-Yc-yzR" customClass="YTPlayerView">
-                                <rect key="frame" x="67" y="74" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yY1-Yc-yzR" customClass="YTPlayerView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="219" id="aUj-n8-KCs"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yY1-Yc-yzR" secondAttribute="trailing" id="Pen-Ng-dfQ"/>
+                            <constraint firstItem="yY1-Yc-yzR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vt4-GG-Xxg"/>
+                            <constraint firstItem="yY1-Yc-yzR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dpn-h9-Tnv"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="playerView" destination="yY1-Yc-yzR" id="du9-HS-bD0"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="56.799999999999997" y="37.331334332833585"/>
         </scene>
     </scenes>
 </document>

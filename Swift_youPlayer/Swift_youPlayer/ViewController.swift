@@ -10,11 +10,12 @@ import UIKit
 import youtube_ios_player_helper
 
 class ViewController: UIViewController {
+  @IBOutlet weak var playerView: YTPlayerView!
 
   override func viewDidLoad()
   {
     super.viewDidLoad()
-    
+    self.playerView.load(withVideoId: "yYIBb81ocvg", playerVars: ["playsinline": 1])
   }
 
   override func didReceiveMemoryWarning() {
