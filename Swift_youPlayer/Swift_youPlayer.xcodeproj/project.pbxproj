@@ -15,6 +15,7 @@
 		DBA28D781F36AEF6006F12AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBA28D761F36AEF6006F12AD /* LaunchScreen.storyboard */; };
 		DBA28D831F36AEF6006F12AD /* Swift_youPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA28D821F36AEF6006F12AD /* Swift_youPlayerTests.swift */; };
 		DBA28D8E1F36AEF6006F12AD /* Swift_youPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA28D8D1F36AEF6006F12AD /* Swift_youPlayerUITests.swift */; };
+		DBA28D9E1F36B37A006F12AD /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBA28D9D1F36B37A006F12AD /* MyView.swift */; };
 		E636C56B3D2079317E1A2280 /* Pods_Swift_youPlayerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2E3A0AAB16CC0A1613226C9 /* Pods_Swift_youPlayerUITests.framework */; };
 		EFE41368C74C598B7B135680 /* Pods_Swift_youPlayerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4A36B009C9181C9AA6C321C /* Pods_Swift_youPlayerTests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		DBA28D891F36AEF6006F12AD /* Swift_youPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift_youPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBA28D8D1F36AEF6006F12AD /* Swift_youPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_youPlayerUITests.swift; sourceTree = "<group>"; };
 		DBA28D8F1F36AEF6006F12AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBA28D9D1F36B37A006F12AD /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
 		ECB43639792A111559741352 /* Pods-Swift_youPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_youPlayerUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_youPlayerUITests/Pods-Swift_youPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F2E3A0AAB16CC0A1613226C9 /* Pods_Swift_youPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_youPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC16E3229F8C0789AA57F80 /* Pods-Swift_youPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift_youPlayerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift_youPlayerTests/Pods-Swift_youPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 		DBA28D611F36AEF6006F12AD = {
 			isa = PBXGroup;
 			children = (
+				DBA28D9D1F36B37A006F12AD /* MyView.swift */,
 				DBA28D6C1F36AEF6006F12AD /* Swift_youPlayer */,
 				DBA28D811F36AEF6006F12AD /* Swift_youPlayerTests */,
 				DBA28D8C1F36AEF6006F12AD /* Swift_youPlayerUITests */,
@@ -458,6 +461,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBA28D9E1F36B37A006F12AD /* MyView.swift in Sources */,
 				DBA28D701F36AEF6006F12AD /* ViewController.swift in Sources */,
 				DBA28D6E1F36AEF6006F12AD /* AppDelegate.swift in Sources */,
 			);
@@ -710,6 +714,7 @@
 				DBA28D941F36AEF6006F12AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBA28D951F36AEF6006F12AD /* Build configuration list for PBXNativeTarget "Swift_youPlayerTests" */ = {
 			isa = XCConfigurationList;
@@ -718,6 +723,7 @@
 				DBA28D971F36AEF6006F12AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DBA28D981F36AEF6006F12AD /* Build configuration list for PBXNativeTarget "Swift_youPlayerUITests" */ = {
 			isa = XCConfigurationList;
@@ -726,6 +732,7 @@
 				DBA28D9A1F36AEF6006F12AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
