@@ -24,23 +24,50 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yY1-Yc-yzR" customClass="YTPlayerView">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="275"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="275" id="aUj-n8-KCs"/>
-                                </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOa-xh-5EA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="time" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOa-xh-5EA">
                                 <rect key="frame" x="124" y="323" width="114" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGK-dr-vn5">
+                                <rect key="frame" x="123" y="382" width="49" height="30"/>
+                                <state key="normal" title="loadlist"/>
+                                <connections>
+                                    <action selector="btnLoadList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ogD-aL-JeG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CwW-l9-I3f">
+                                <rect key="frame" x="134" y="420" width="31" height="30"/>
+                                <state key="normal" title="Prev"/>
+                                <connections>
+                                    <action selector="btnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Oka-6J-81O"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uyx-XV-dpc">
+                                <rect key="frame" x="241" y="420" width="32" height="30"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <action selector="btnNext:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FjR-gw-8JL"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="WOa-xh-5EA" firstAttribute="top" secondItem="yY1-Yc-yzR" secondAttribute="bottom" constant="48" id="FXO-eu-poX"/>
                             <constraint firstAttribute="trailing" secondItem="yY1-Yc-yzR" secondAttribute="trailing" id="Pen-Ng-dfQ"/>
+                            <constraint firstItem="AGK-dr-vn5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="123" id="RyM-rl-GiP"/>
                             <constraint firstItem="yY1-Yc-yzR" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Vt4-GG-Xxg"/>
+                            <constraint firstAttribute="bottom" secondItem="yY1-Yc-yzR" secondAttribute="bottom" constant="392" id="arg-0B-1Yc"/>
+                            <constraint firstAttribute="trailing" secondItem="AGK-dr-vn5" secondAttribute="trailing" constant="203" id="dEs-eQ-qyT"/>
                             <constraint firstItem="yY1-Yc-yzR" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="dpn-h9-Tnv"/>
+                            <constraint firstItem="AGK-dr-vn5" firstAttribute="top" secondItem="WOa-xh-5EA" secondAttribute="bottom" constant="38" id="lUA-fL-G9k"/>
+                            <constraint firstItem="Uyx-XV-dpc" firstAttribute="top" secondItem="yY1-Yc-yzR" secondAttribute="bottom" constant="145" id="o3K-ju-RHb"/>
+                            <constraint firstItem="Uyx-XV-dpc" firstAttribute="leading" secondItem="CwW-l9-I3f" secondAttribute="trailing" constant="76" id="og3-mh-ePa"/>
+                            <constraint firstAttribute="trailing" secondItem="Uyx-XV-dpc" secondAttribute="trailing" constant="102" id="tue-4V-CDd"/>
+                            <constraint firstItem="CwW-l9-I3f" firstAttribute="top" secondItem="AGK-dr-vn5" secondAttribute="bottom" constant="8" id="yAZ-wH-MWu"/>
+                            <constraint firstItem="CwW-l9-I3f" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="134" id="yUF-B1-ccD"/>
                         </constraints>
                     </view>
                     <connections>

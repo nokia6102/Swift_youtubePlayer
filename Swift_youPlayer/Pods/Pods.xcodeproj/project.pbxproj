@@ -46,27 +46,27 @@
 		3011E6A06DDC7B4A6975FC795C3650B7 /* Pods-Swift_youPlayerUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swift_youPlayerUITests-frameworks.sh"; sourceTree = "<group>"; };
 		3A09243EF6893B3515FC9BC54AF79869 /* Pods-Swift_youPlayerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swift_youPlayerTests.release.xcconfig"; sourceTree = "<group>"; };
 		3A5757DFE546A09012D48801278F6060 /* Pods-Swift_youPlayerTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swift_youPlayerTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		45795E044012BF9A44FDC37E4D992ABF /* youtube_ios_player_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = youtube_ios_player_helper.framework; path = "youtube-ios-player-helper.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		494DBFB18C232FE025AF0EF5A4FC2000 /* youtube-ios-player-helper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "youtube-ios-player-helper.modulemap"; sourceTree = "<group>"; };
+		45795E044012BF9A44FDC37E4D992ABF /* youtube_ios_player_helper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = youtube_ios_player_helper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		494DBFB18C232FE025AF0EF5A4FC2000 /* youtube-ios-player-helper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "youtube-ios-player-helper.modulemap"; sourceTree = "<group>"; };
 		4ECFCCAD474B8CE8F1C636BB06BAB6F9 /* Pods-Swift_youPlayerTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swift_youPlayerTests-dummy.m"; sourceTree = "<group>"; };
 		5C561EF003D5613AE7502F83BB318CF3 /* Pods-Swift_youPlayerUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swift_youPlayerUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		5E6F955251D4EA7F061492B9D1C06B93 /* youtube-ios-player-helper-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-prefix.pch"; sourceTree = "<group>"; };
 		63228A71C89775135BDE5C8F6473FCCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		67ACD13C04AB48B6BD4FDF2958B568C0 /* Pods-Swift_youPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Swift_youPlayer.modulemap"; sourceTree = "<group>"; };
+		67ACD13C04AB48B6BD4FDF2958B568C0 /* Pods-Swift_youPlayer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Swift_youPlayer.modulemap"; sourceTree = "<group>"; };
 		6EC631DE9BA374CCBDCD7A0A342EF93F /* Pods-Swift_youPlayerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swift_youPlayerUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6FC15AF3B59141737C7DC70D2BB5179F /* Pods-Swift_youPlayerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swift_youPlayerUITests.release.xcconfig"; sourceTree = "<group>"; };
 		733849E223203F989C89327FB14C3DDD /* Pods-Swift_youPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swift_youPlayer.debug.xcconfig"; sourceTree = "<group>"; };
 		79376D247D489773D7E24EAC9B159283 /* Assets.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = Assets.bundle; path = "youtube-ios-player-helper/Assets.bundle"; sourceTree = "<group>"; };
 		8A6A23F8E303A7EA8A7870642DB97834 /* Pods-Swift_youPlayerUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Swift_youPlayerUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		934CD7FF1814D67E0D357D9377FE9A44 /* Pods-Swift_youPlayerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Swift_youPlayerTests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		934CD7FF1814D67E0D357D9377FE9A44 /* Pods-Swift_youPlayerTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Swift_youPlayerTests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		940A2568B5C38A977BBFA2689100BEBB /* Pods-Swift_youPlayerTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swift_youPlayerTests-frameworks.sh"; sourceTree = "<group>"; };
-		9AC1442CD96E6C4071091167AD4A692A /* Pods-Swift_youPlayerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Swift_youPlayerUITests.modulemap"; sourceTree = "<group>"; };
+		9AC1442CD96E6C4071091167AD4A692A /* Pods-Swift_youPlayerUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-Swift_youPlayerUITests.modulemap"; sourceTree = "<group>"; };
 		A7EC547EDE57104D8822189323406DBA /* youtube-ios-player-helper.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "youtube-ios-player-helper.xcconfig"; sourceTree = "<group>"; };
 		A972B15E9D285B9B1A36315DF29B4E77 /* YTPlayerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YTPlayerView.h; path = Classes/YTPlayerView.h; sourceTree = "<group>"; };
 		AFA04690C71431D2215E93D0D6BFC219 /* Pods-Swift_youPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swift_youPlayer.release.xcconfig"; sourceTree = "<group>"; };
-		B5EE74D6282B79EA2CF1F6C12F510E66 /* Pods_Swift_youPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swift_youPlayerTests.framework; path = "Pods-Swift_youPlayerTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5EE74D6282B79EA2CF1F6C12F510E66 /* Pods_Swift_youPlayerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_youPlayerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFDD5390949CEDBE6E314D410832E360 /* Pods-Swift_youPlayerUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Swift_youPlayerUITests-dummy.m"; sourceTree = "<group>"; };
 		C0A26821F8DC21FE3436AFC4BCB09D61 /* youtube-ios-player-helper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "youtube-ios-player-helper-dummy.m"; sourceTree = "<group>"; };
 		C4DEB55AFC256BD3076D36FA8740037C /* Pods-Swift_youPlayerUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Swift_youPlayerUITests-resources.sh"; sourceTree = "<group>"; };
@@ -75,11 +75,11 @@
 		D140DEDE06190F99D85DAAF60BEAE985 /* Pods-Swift_youPlayerTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swift_youPlayerTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D4799393EAD678EAE1DA6486B3965A0F /* youtube-ios-player-helper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "youtube-ios-player-helper-umbrella.h"; sourceTree = "<group>"; };
 		E17DEE5224AAE472451AF69D1CDD0D94 /* Pods-Swift_youPlayerUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Swift_youPlayerUITests-umbrella.h"; sourceTree = "<group>"; };
-		E7BC0E39C8AA7353BA4A28AE83A2AAD1 /* Pods_Swift_youPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swift_youPlayer.framework; path = "Pods-Swift_youPlayer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7BC0E39C8AA7353BA4A28AE83A2AAD1 /* Pods_Swift_youPlayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_youPlayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3434110D4E358A00989C77685C22B1 /* Pods-Swift_youPlayerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Swift_youPlayerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F2BE5644FAE2154AF4E44AD9BC397C0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F6B9980D9A6F28CC3AB10A216EFB2AF0 /* Pods-Swift_youPlayer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Swift_youPlayer-acknowledgements.plist"; sourceTree = "<group>"; };
-		FCC875A069B7EC31F7CE4607FDB6D85C /* Pods_Swift_youPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Swift_youPlayerUITests.framework; path = "Pods-Swift_youPlayerUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC875A069B7EC31F7CE4607FDB6D85C /* Pods_Swift_youPlayerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_youPlayerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,7 +209,6 @@
 				5E68BFF7326A13AE8E8CDE300B4E13BE /* Resources */,
 				A1E6C96D25FB9EF512BEC9F2334B8A87 /* Support Files */,
 			);
-			name = "youtube-ios-player-helper";
 			path = "youtube-ios-player-helper";
 			sourceTree = "<group>";
 		};
